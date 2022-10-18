@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/style.css" />
+  <title>Callwe</title>
+</head>
+<body>
+  <header class="header-container">
+    <h1 class="header-logo">call<span>w</span>e</h1>
+    <ul class="header-navbar">
+      <li>Cozinha</li>
+      <li>Banheiro</li>
+      <li>Lavanderia</li>
+      <li>Corporativo</li>
+      <li>Vávulas e registros</li>
+      <p class="navbar-hide">|</p>
+      <li>Atendimento e suporte</li>
+      <li class="navbar-hide"><img src="assets/images/search.svg"></li>
+    </ul>
+    <div class="header-burger">
+      <div class="burger-icon line1"></div>
+      <div class="burger-icon line2"></div>
+      <div class="burger-icon line3"></div>
+    </div>
+  </header>
+  <main>
+    <section class="hero-container">
+      <img class="hero-image" src="assets/images/image-hero.jpg" alt="Hero image"/>
+    </section>
+    <section>
+      <ul class="board-container" id="board"></ul>
+    </section>
+    <section class="carousel-container">
+      <p class="carousel-title">Vídeos</p>
+      <div class="carousel-inner">
+        <ul class="track">
+          <li class="card-list"><img src="assets/images/youtube.svg" class="card-image"/></li>
+          <li class="card-list"><img src="assets/images/youtube.svg" class="card-image"/></li>
+          <li class="card-list"><img src="assets/images/youtube.svg" class="card-image"/></li>
+          <li class="card-list"><img src="assets/images/youtube.svg" class="card-image"/></li>
+          <li class="card-list"><img src="assets/images/youtube.svg" class="card-image"/></li>
+        </ul>
+        <div class="carousel-buttons">
+          <button class="carousel-button prev"><img src="assets/images/arrow-left.svg"></button>
+          <button class="carousel-button next"><img src="assets/images/arrow-right.svg"></button>
+        </div>  
+      </div>      
+      
+    </section>
+    <section class="forms-container">
+      <p class="forms-title">Enviar solicitação</p>
+      <form>
+        <div class="label-input name">
+          <label for="name">Nome*</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="label-input email">
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email"/>
+        </div>
+        <div class="label-input phone">
+          <label for="phone">Telefone</label>
+          <input type="text" id="phone" name="phone" />
+        </div>
+        <div class="label-input cep">
+          <label for="cep">CEP*</label>
+          <input type="text" id="cep" name="cep" />
+        </div>
+        <div class="label-input address">
+          <label for="address">Endereço*</label>
+          <input class="address" type="text" id="address" name="address" />
+        </div>
+        <div class="label-input number">
+          <label for="number">Número*</label>
+          <input class="number" type="text" id="number" name="number" />
+        </div>
+        <div class="label-input city">
+          <label for="city">Cidade*</label>
+          <input type="text" id="city" name="city" />
+        </div>
+        <div class="label-input state">
+          <label for="state">Estado*</label>
+          <input type="text" id="state" name="state" />
+        </div>
+      </form>
+      <button class="forms-bttn">Envie sua Solicitação</button>
+    </section>
+  </main>
+  <footer class="footer-container">
+    <div class="black-container"></div>
+    <div class="socials-container">
+      <p>Call<span>w</span>e</p>
+      <div class="socials-logo">
+        <img class="instagram" src="assets/images/logo-instagram.svg">
+        <img class="facebook" src="assets/images/logo-facebook.svg">
+        <img class="youtube" src="assets/images/logo-youtube.svg">
+        <img class="linkedin" src="assets/images/logo-linkedin.svg">
+      </div>
+    </div>
+    <div class="about-container">
+      <p>Sobre a Callwe</p>
+      <ul>
+        <li>Institucional</li>
+        <li>História</li>
+        <li>Sustentabilidade</li>
+        <li>Trabalhe Conosco</li>
+      </ul>
+    </div>
+    <div class="services-container">
+      <p>Produtos</p>
+      <ul>
+        <li>Banheiro</li>
+        <li>Cozinha</li>
+        <li>Lavanderia</li>
+        <li>Corporativo</li>
+        <li>Vávulas e Registro</li>
+      </ul>
+    </div>
+    <div class="support-container">
+      <p>Suporte</p>
+      <ul>
+        <li>Política de Qualidade</li>
+        <li>Garantia Toda Vida</li>
+      </ul>
+    </div>
+    <div class="phones-container">
+      <p>Atendimento</p>
+      <ul>
+        <li>Callwe Responde</li>
+        <li>0000 000 000</li>
+      </ul>
+      <ul>
+        <li>Televendas</li>
+        <li>0000 000 000</li>
+      </ul>
+    </div>
+    <div class="grey-container"></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
