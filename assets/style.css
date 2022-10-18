@@ -82,7 +82,9 @@ li {
 .header-burger,
 .article01,
 .article02,
-.article03 {
+.article03,
+.openArticles,
+.closeArticles {
   cursor: pointer;
 }
 
@@ -91,6 +93,11 @@ li {
   background-color: var(--cor-bg-principal);
   padding: 20px;
   justify-content: space-around;
+}
+
+.header-container li:hover {
+  color: var(--cor-destaque-principal);
+  transition: 0.3s ease-in-out;
 }
 
 .header-logo {
@@ -147,6 +154,11 @@ li {
   width: 215px;  
   height: 193px;
   position: absolute;
+}
+
+.face:hover {
+  border: 1px solid var(--cor-destaque-principal);
+  transition: 0.3s ease-in-out;
 }
 
 .front {
@@ -274,6 +286,10 @@ li {
   background: transparent;
 }
 
+.label-input input:active {
+  border: 1px solid var(--cor-destaque-principal);
+}
+
 .forms-bttn {
   font-size: 13px;
   letter-spacing: 2px;
@@ -285,6 +301,11 @@ li {
   border: 1px solid var(--cor-destaque-principal);
   margin: 20px;
   padding: 15px 20px;
+}
+
+.forms-bttn:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
 }
 
 /* FOOTER */
@@ -373,7 +394,7 @@ li {
 
   /* CAROUSEL */
   .carousel-container {
-    width: 40%;
+    width: 55%;
   }
 
   .card-list {
