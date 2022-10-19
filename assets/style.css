@@ -491,6 +491,11 @@ li {
     display: none;
   }
 
+  /* HERO */
+  .hero-image {
+    height: 40vh;
+  }
+
   /* CARD PRODUTOS */
   .board-container {
     grid-template-columns: repeat(2, 15rem);
@@ -582,6 +587,11 @@ li {
 
   .navbar-hide {
     display: none;
+  }
+
+  /* HERO */
+  .hero-image {
+    height: 40vh;
   }
 
   /* CARD PRODUTOS */
