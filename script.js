@@ -182,7 +182,7 @@ carouselPrevCard()
 
 const burger = document.querySelector('.header-burger');
 const header = document.querySelector('.header-navbar');
-const headerLinks = document.querySelectorAll('.header-navbar li');
+const headerLinks = document.querySelectorAll('.header-navbar a');
 
 function menuHamburger() {
   burger.addEventListener('click', () => {
